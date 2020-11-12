@@ -1,12 +1,6 @@
 Pyraminx Project 1 part 2
 CS 463G
 
-*******************ISSUES **************************************
-
-With this program I am having a difficult time getting anything over 4 random moves to run before my computer begins to run noticably slower and I can no longer run the search.
-I have found that when I get "lucky" with simple randomizations I can run it fairly well, but for more complex ones it grinds to a halt after wabout 10-15 minutes. 
-In addition to that, I believe I have some weird data for timing due to the lucky or unlucky randomizations. This may be the fault of my heuristic as I have seen it go down long rabbit holes at times. 
-
 *******************IMPORTANT NOTE HOW TO RUN **************************************
 In this program I created a virtual environment to handle dependencies with some added libraries to use numpy and randomizer. Both of these can
 be installed using "pip", Or it can all be setup using the requirements.txt folder I have using the command:
